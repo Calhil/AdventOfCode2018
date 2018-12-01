@@ -4,6 +4,19 @@
     // "suppressTaskName": true,
     "tasks": [
         {
+            "label": "run",
+            "command": "mix",
+            "args": [
+                "run"
+            ],
+            "type": "shell",
+            "problemMatcher": [
+                "$mixCompileError",
+                "$mixCompileWarning"
+            ],
+            "group": "none"
+        },
+        {
             "label": "build",
             "command": "mix",
             "args": [

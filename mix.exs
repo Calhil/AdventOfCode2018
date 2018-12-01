@@ -1,4 +1,4 @@
-defmodule Main.MixProject do
+defmodule AOC2018.MixProject do
   use Mix.Project
 
   def project do
