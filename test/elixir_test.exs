@@ -1,8 +1,8 @@
-defmodule ElixirTest do
+defmodule MainTest do
   use ExUnit.Case
-  doctest Elixir
+  doctest Main
 
   test "greets the world" do
-    assert Elixir.hello() == :world
+    assert Main.hello() == :world
   end
 end
