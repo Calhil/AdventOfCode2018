@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "command": "mix",
+    // "suppressTaskName": true,
+    "tasks": [
+        {
+            "label": "build",
+            "command": "mix",
+            "args": [
+                "compile"
+            ],
+            "type": "shell",
+            "problemMatcher": [
+                "$mixCompileError",
+                "$mixCompileWarning"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "test",
+            "command": "mix",
+            "args": [
+                "test"
+            ],
+            "type": "shell",
+            "problemMatcher": [
+                "$mixCompileError",
+                "$mixCompileWarning",
+                "$mixTestFailure"
+            ],
+            "group": "test"
+        }
+    ]
+}
